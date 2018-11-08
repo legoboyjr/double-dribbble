@@ -72,18 +72,62 @@ class App extends Component {
               </li>
             </ul>
           </nav>
-          <section className="project-grid flex-grow-1">
-            <div class="card" style={{ width: '18rem'}}>
-              <img class="card-img-top" src="https://loremflickr.com/180/100" alt="Card image cap" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <section className="project-grid flex-grow-1 p-4 d-flex flex-wrap justify-content-around">
+            <div>
+              <div class="card p-2" style={{ width: '16rem' }}>
+                <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
+                <div class="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
                 </div>
               </div>
+            </div>
+            <div>
+              <div class="card p-2" style={{ width: '16rem' }}>
+                <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
+                <div class="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card p-2" style={{ width: '16rem' }}>
+                <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
+                <div class="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card p-2" style={{ width: '16rem' }}>
+                <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
+                <div class="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card p-2" style={{ width: '16rem' }}>
+                <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
+                <div class="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
           </section>
         </main>
       </div>
-        );
-      }
-    }
-    
-    export default App;
+    );
+  }
+}
+
+export default App;
