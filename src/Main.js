@@ -1,4 +1,6 @@
 import React from 'react';
+import Card from './Card';
+
 
 function Main(props) {
     return (<main className="h-100 d-flex flex-column">
@@ -19,56 +21,11 @@ function Main(props) {
             </ul>
         </nav>
         <section className="project-grid flex-grow-1 p-4 d-flex flex-wrap justify-content-around">
-            <div>
-                <div class="card p-2" style={{ width: '16rem' }}>
-                    <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
-                    <div class="card-body d-flex justify-content-end p-1">
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card p-2" style={{ width: '16rem' }}>
-                    <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
-                    <div class="card-body d-flex justify-content-end p-1">
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card p-2" style={{ width: '16rem' }}>
-                    <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
-                    <div class="card-body d-flex justify-content-end p-1">
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card p-2" style={{ width: '16rem' }}>
-                    <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
-                    <div class="card-body d-flex justify-content-end p-1">
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card p-2" style={{ width: '16rem' }}>
-                    <img class="card-img-top" src="https://loremflickr.com/180/180" alt="Card image cap" />
-                    <div class="card-body d-flex justify-content-end p-1">
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-eye"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
-                        <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
-                    </div>
-                </div>
-            </div>
+            <Card src="https://loremflickr.com/180/180" likes={2108} views={2108} comments={2108} />
+            <Card src="https://loremflickr.com/180/180/dog" likes={2108} views={2108} comments={2108} />
+            <Card src="https://loremflickr.com/180/180/bird" likes={2108} views={2108} comments={2108} />
+            <Card src="https://loremflickr.com/180/180/snake" likes={2108} views={2108} comments={2108} />
+            <Card src="https://loremflickr.com/180/180/truck" likes={642} views={397} comments={15} />
         </section>
     </main>)
 }
