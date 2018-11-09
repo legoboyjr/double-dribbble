@@ -7,12 +7,12 @@ function Header(props) {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="#">Dribbble</a>
             <ul className="navbar-nav mr-auto">
-                <NavLink title={"Shots"}/>
-                <NavLink title={"Designers"}/>
-                <NavLink title={"Teams"}/>
-                <NavLink title={"Communitys"}/>
-                <NavLink title={"Jobs"}/>
-                <NavLink title={"Hireing"}/>
+                <NavLink href="#" title={"Shots"}/>
+                <NavLink href="#" title={"Designers"}/>
+                <NavLink href="#" title={"Teams"}/>
+                <NavLink href="#" title={"Communitys"}/>
+                <NavLink href="#" title={"Jobs"}/>
+                <NavLink href="#" title={"Hireing"}/>
                 <li className="nav-item">
                     <a className="nav-link" href="#">
                         <i className="fa fa-ellipsis-h" aria-hidden="true"></i>
