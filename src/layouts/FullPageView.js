@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function FullPageView(props) {
     return (
@@ -6,6 +7,10 @@ function FullPageView(props) {
           {props.children}
       </div>
     );
+  }
+
+  FullPageView.protoTypes = {
+    children: PropTypes.array.isRequired
   }
 
 export default FullPageView;
